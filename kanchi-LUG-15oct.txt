@@ -1,0 +1,50 @@
+Fellow Jitster
+Fellow Jitster says:
+https://docs.gns3.com/docs/getting-started/setup-wizard-local-server/
+ 
+Fellow Jitster says:
+https://www.osboxes.org/
+ 
+16:58
+Fellow Jitster
+Fellow Jitster says:
+https://docs.gns3.com/docs/emulators/create-a-docker-container-for-gns3/
+ 
+Fellow Jitster says:sudo add-apt-repository ppa:gns3/ppa
+sudo apt-get update
+sudo apt-get install gns3-gui 
+17:06
+Fellow Jitster
+Fellow Jitster says:
+https://docs.gns3.com/docs/emulators/which-emulators-should-i-use
+ 
+17:07
+Fellow Jitster
+Fellow Jitster says:
+https://www.questioncomputer.com/install-gns3-and-docker-on-ubuntu-20-04-for-cisco-and-linux-network-labs/
+ 
+17:07
+Fellow Jitster
+Fellow Jitster says:
+https://computingforgeeks.com/how-to-install-gns3-on-ubuntu/#google_vignette
+ 
+Fellow Jitster says:
+https://computingforgeeks.com/how-to-install-gns3-on-ubuntu/#google_vignette
+ 
+Fellow Jitster says:
+https://drive.google.com/file/d/1_fGV6Kx1-Un5rb683xvAJVlvNlhd8xdH/view?pli=1
+ 
+Fellow Jitster says:
+https://github.com/GNS3/gns3-gui/releases
+ 
+
+
+
+
+Gold Ayan
+
+https://www.youtube.com/playlist?list=PL0vwHm0AGyYP8yg0DZc8ApOEI7mw75U70
+ 
+Gold Ayan says:
+https://freetamilebooks.com/
+ 
