@@ -1,0 +1,15 @@
+ 1) largest element of an array
+ 2) second largest element in an array
+ 3) check is array is sorted or not
+ 4) remove duplicates in an sorted array (using two pointer)
+ 5) left rotate an array by one place
+ 6) left rotate an array by D place
+ 7) Move zeros to end   (using two pointer)
+ 8) linear search 
+ 9) Find the union and intersection of two sorted arrays 
+10) Find missing number in an array (n*(n+1)/2) or (xor)
+11) maximum consecutive ones    
+12) Find the row with maximum number of 1's 
+13) subArray with given sum
+14) Find the number that appears once, and other numbers twice.
+15)

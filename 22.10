@@ -1,0 +1,454 @@
+important
+    count of digits = Math.log10(143)
+
+
+1) Find the nearest prime palindrome of the given number?
+    Input : 140
+    Output: 131
+
+solution:
+    n--   isPalindrom and isPrime 
+    (n++) check palindrome 
+
+    upto isPalindrom and isPrime write logic separately 
+        
+
+2) Check the string is a palindrome or not 
+    Input : madam
+    Output: palindrome
+    
+Solution:
+    while(l<=r)
+        if(char(l)==char(r)){
+            l++;
+            r++;    
+        }
+        else
+            reture not;
+
+
+3)Prime fibonacci number
+    Given two numbers n1 and n2 
+        1)   Find prime numbers between n1 and n2,
+        2)   Make all possible unique combinations of numbers from the list of the prime numbers you found in step1
+        3)   From this new list, again find all prime.
+        4)   Find the smallest(a) and largest(b) number from the 2nd generated list, also count of this list.
+        5)   Consider the smallest and largest number as the 1st and 2nd number to generate the Fibonacci series respectively till the count (number odf primes in the 2nd list).
+        6) print the last number of a Fibonacci series as an output.
+
+Input : x=2 and y =40
+1) a= [2,3,5,7,11,13,17,19,23,19,31,37]    prime no. between 2 - 40.
+2)find combinations and is it prime no. can store in ArrayList b;
+3)find min and max of the ArrayList b 
+
+
+
+
+4) Adam Number
+    12 -> 144 -> 441 -> 21 -> 12
+    sq     rev   sqrt   rev
+
+5)  Combinations
+
+
+
+6)  Remove a Specific no from the given number
+    Input : 123345
+             3
+    Output: 1245
+
+    * reversing and forwarding of digit
+
+7) Pascal Triangle pattern
+
+8) Find the minimum number of coins required to form any value between 1 to N, both inclusive. Cumulative value of coins should not exceed N. Coin denominations are 1rs, 2rs and 5rs.
+
+    Consider the value of N is 13, then the minimum number of coins required to formulate any value between 1 and 13, is 6. 
+        5rs =1, 2rs = 3 and 1rs=2.
+if one takes 5rs = 2 , 2rs = 1 , 1rs = 2 then too all values between 1 and 13 are achieved. But since the cumulative of all coins equals 14, exceeds 13, this not the answer.
+
+    Input : 13
+    Output: 6 1 3 2
+
+solution :
+    1st find 5rs coin f= (n/5-1) which means
+    check where (n>5) or it shows negative value
+    5 - 9 - 1 coins    
+    10-14 - 2 coins 
+    15-19 - 3 coins
+
+    2nd change n to n = n-5*f  n -(5rs* total coins).
+    
+    3rd find 1rs coin if new n %2 == 1 o=1 or o==2
+    
+    last s= n-o then print f+s+o total coins is
+ 
+9) One person hands over the list of digits to Mr.String, But Mr. Str
+    
+Constraints
+    input within 100
+
+    sample input : 5
+                    1 2 3 4 5
+    sample output: one
+
+    Explaination :
+        1 -> ONE -> o,e
+        2 -> two -> o
+        3 -> three -> e,e
+        4 -> four -> o,u
+        5 -> five -> i, e
+
+    total vowels are {2+1+2+2+2} = 9
+    
+    5+4 = 9 so ans is one.
+
+
+10) Lucas Series (like fibbonic series but it starts with 2 1)
+    
+         {  2
+    Ln :={  1
+         {  Ln-1 + ln+2
+
+    Input : 10
+    Output: 2,1,3,4,7,11,18,29,47,76
+    
+    Explaination:
+        2+1=3, 3+1=4, 4+3=7, 7+4=11, 11+7=18, 18+11=29, 29+18=47, 47+29=76.
+
+
+11) Decimal to binary 
+    
+    Input : 1304 
+    Output: 10100011000
+    
+    Caution : we can't use number, so we need to have array to store each digits.
+    Solution : normal LCM method
+
+12) decaimal to hexadecimal
+    Input : 1748
+    Output: ABC   
+
+
+13) Find duplicate elements in an Array
+    Input : 1,2,3,2,1,1 
+    output: 1,2
+    
+    if duplicate find change to 0 or Integer.MIN_VALUE
+
+14) find the first recurring character in the
+
+    Input : ABCA        Input : ABC
+    Output: A           Output: None
+
+    Input : BCABA
+    Output: B
+    
+     hashing tech
+        ar[26]
+        ar[(i-'A')] == 0
+            ar[(i-'A')]=i-'A';
+            
+        else
+            return (i-'A' -)
+
+
+15) dynamic programming
+
+
+16) Armstong number or not
+        
+    Input : 153
+    Output: true    
+    
+    1) find number of digit (3)
+    2) power of one by one digits (1*1*1+ 5*5*5 + 3*3*3)= 1+125+27 =153.
+
+17) Find the smallest positive missing number in unsorted array
+    Input : 
+
+
+18) Kth Largest Factor of N.
+        Input : n=12 k=3 
+        Output: 4
+    explaination:
+        12,6,4,3,2,1
+
+
+19) Count number of bits to be flipped to convert A to B
+    Input : a=7, b=10;
+    Output: 3
+    
+    Explaination:
+          Binary representation of a is 00000111
+          Bianry representation of b is 00001010
+        
+    a%2 and b%2 count++
+    return count
+
+
+20) Find & Replace a Word in a String   ((IMP))
+    Input : Carting is car for car in racecar
+            car -> bike
+    output: carting is bike for bike in racecar
+    
+21) Sum of two large numbers
+        Write a program to find the sum of two large numbers?
+    Input : 100000000000000000000001212
+    Output: 900000000000009099999999999
+     
+    convert last to 0 add one by one then dec i and j
+    add carry c += a[i]+a[j];
+
+
+
+22) Swap Order and Case
+    input : abCxyZ
+    Output: ZYzCBa
+       small a - change to capital Z
+        
+23) Bit Exchange 
+    given number in base number convert into given new se numb
+    INPUT : n=123 b=4 newBase=10
+    Output: 27
+
+    1) check the number within base value.
+    2) convert given base to 10 base
+    3) convert 10 base to new base value
+
+24) String distance     DON'T KNOW
+     Input : S1=kitten   S2=sitting
+     Output: 3
+    
+    Explaination : 
+        k - g -> 1
+        e - i -> 2
+          - g -> 3
+    total 3 different
+
+25) Input : a1b10
+    Output: abbbbbbbbbbb
+
+    input : b3c6d15
+    Output: bbbccccccddddddddddddddd
+
+    check alpha 
+    {   
+        if(alpha!=0)
+    {
+        loop upto num ;
+    }
+    }   
+    else check number
+    {   
+        num = num *10+a[i]-48
+    }   
+    
+27) Enter two strings from command line and check whether any substring present in first string that follows the pattern of second string. They asked to implement regular expressions for * without built in functions.
+
+    "abcd" "a*cd    ans: yes
+    "aaaa" "a*"     ans: yes
+    "a*c"  "a*c"    ans: yes
+    "adsd" "ad"     ans: no
+
+    Solutions:
+        make b to star upto next letter 
+      example :
+        a= school      b =s*l;
+        make b=s****l;
+        compare to value if equals yes or no; 
+28) x pattern
+
+
+
+29) reverse the string (stack or double String)
+    Input : I love coding
+    output: coding love I
+
+30) number conversion
+
+31) Write a program to get n number and find different between the adjacent elements and print the final resultant number.
+    Input : n=5 arr = 10,12,15,23,34
+    Output: 2
+
+    explaination :
+        10      12      15      23      34
+            2       3       8       11  
+                1       5       3   
+                    4       2
+                        2
+        ans = 2
+
+32) Lexicography - Form a new word
+        Take first N character from the given String S. Check the smallest character from the first N characters and remove from the String S and add to the New String. Do the smae with the remaining string.
+
+    input : s=tech  no=3
+    output: ceht
+
+    Explaination:
+    tec => smallest is 'c'
+    after removing 'c' string S becomes "teh"
+    new word becomes "c"
+
+    teh=> smallest is 'e' 
+    after removing 'e' string S becomes "th"
+    new word becomes "ce"
+
+    th=> smallest is 'h'
+    after removing 'h' string S becomes "t"
+    new word becomes "ceh"
+
+    t=> smallest is 'h'
+    after removing 't' string S becomes""
+    new word becomes "ceht"        
+
+
+
+33) program to find the list of strings with given prefix
+    Ex: s1="de";
+        s[]={"dear", "deer", "dog"}
+    O/p =dear , deer
+
+34) z pattern   check given str can form z pattern or not
+    input : t4teqsoftwaresolutions      
+    Output: form
+    
+    Input : refghdhfd 
+    Output: no form
+    
+    Sol : check where the str.length % 3 == 1 
+    
+35) Sort array after converting elements to their squares
+    ex  Input : arr[] = {-6,-3,-1,2,4,5}
+        Output: 1, 4, 9, 16, 25, 36
+    Use two pointer methodology for this type, Because of sorted array
+
+36) find all triplets with zero sum     (IMP)
+        G
+    Ex: 
+        Input : arr[]={0,-1,2,-3,1}
+        Output: (0 -1 1), (2,-3,1)
+    0+ -1 + 1 =0 and 2+ -3 + 1 =0
+
+    SOL : 
+        1) SORT the array
+        2) for(int i=0;i<n-2;i++)   
+            {
+             l= i+1;
+             r= n-1;
+             while(l<r)
+             {
+                int t= arr[l]+arr[r]+arr[i];
+                if(t==0)
+                   print(arr[l++]+" "+arr[r--]+" "+arr[i]);
+                else if(t<arr[l])
+                    l++;
+                else
+                    r--;
+                } 
+            }
+                 
+
+37) String Manipulation
+    end of string ing add ly form ingly
+    end of string length is greater then 3 add ing          
+    lenght is lesser then 3 unchange
+
+
+38) missing number
+        You are given an array of positive numbers from 1 to n, such that all number from 1 to n are present except one number 'x'. You have to find 'x'. The input array is not sorted.
+    input : n=8  arr={3,7,1,2,8,4,5}
+    Output: 6
+    
+    Explain : n*(n+1)/2 - sumofarr
+
+
+39) is the Number valid
+        Given an input string, determine if it makes a valid number or not. For simplicity, assume that white spaces are not present in the input.
+        Test case:
+            4.243, 222, 0.2, 34 are vaild number
+            1.1.1 , 22. , 1. are not vaild number
+        Sol:
+            1) dot count is not greater then 1;
+            2) dot does not be last of string;
+            3) given should be number or dot 
+
+40) Given two strings, find if second string is a subsequence of first.
+    if it is the substring it returns the index of the first occurrence, else return -1;
+    Input : s1= test123string
+            s2= 123
+            Output : 4
+
+    sol : normal method, loop and find inside loop
+
+
+41) Fibonacci combination
+        Print the non-continuous Fibonacci combination that sums to a given n value?
+    example: input: 64                  
+             output: 55 8 1
+        Explaination: 55+8+1
+                      55+ 5+3+1=64
+            
+42) Find the given number is a Fibonacci number or not
+    Formula to find fibonacci 
+        5*(n*n)+4 or 5* (n*n)-4
+
+
+43)Reverse Bits
+    Input : x=1
+    Output: 2147482648
+
+    Explaination: 
+        Binary of 1 in 32bits representation - 0000 0000 0000 0000 0000 0001
+
+    solution:
+        x=10;       //1010
+        result=0;   // 0
+        x&1 for 1 comes to it store in result the
+        eg. 
+        
+          int result = 0;
+        for (int i = 0; i < 32; i++) {
+            result = (result << 1) | (x & 1);
+            x = x >> 1;
+        }
+        return result;
+
+44) prime numbers 
+
+
+
+45) arithmetic operation
+    Input : 12345*+-+;          374291--*+-             67542--/+-
+    Result: 6 [1*2+3-4+5=6]     -8  [3-7-4*2+9-1=-8]    2
+
+46) Sort an Array b Frequency
+    Test case 1:
+        i/p: 11  arr= 2 3 2 4 5 12 2 3 3 3 12
+        o/p: 3 3 3 3 2 2 2 12 12 5 4
+    Test case 2:
+        i/p: 10  arr= 0 2 1 -1 1 2 0 4 -1 4
+        o/p: 4 4 -1 -1 0 0 2 2 1 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
